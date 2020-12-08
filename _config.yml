@@ -1,0 +1,46 @@
+title: Sagen.io
+headline: "PLACEHOLDER #1"
+description: |
+  "PLACEHOLDER #2"
+url: http://exterex.github.io
+baseurl: ""
+paginate: 10
+permalink: pretty
+
+author:
+  name: Andreas Sagen
+  url: https://twitter.com/andreas_sagen
+  email: developer@sagen.io
+
+plugins:
+  - jekyll-paginate
+
+include:
+  - "_pages"
+
+exclude:
+  [
+    "Gemfile",
+    "Gemfile.lock",
+    "node_modules",
+    "vendor/bundle/",
+    "vendor/cache/",
+    "vendor/gems/",
+    "vendor/ruby/",
+    "lib/",
+    "scripts/",
+    "docker-compose.yml",
+    "LICENSE",
+    "license",
+    ".gitignore",
+    ".gitattributes",
+    "Makefile",
+    ".devcontainer/",
+    ".vscode/",
+    ".editorconfig",
+    "robots.txt",
+    "Dockerfile",
+    "docker-compose.test.yml",
+    ".github/",
+    ".dockerignore",
+  ]
