@@ -1,0 +1,86 @@
+* text=auto
+
+# Source code
+*.bash      text eol=lf
+*.coffee    text
+*.css       text
+*.htm       text diff=html
+*.html      text diff=html
+*.ini       text
+*.js        text
+*.json      text
+*.map       text -diff
+*.php       text diff=php
+*.ps1       text eol=crlf
+*.py        text diff=python
+*.rb        text diff=ruby
+*.sass      text
+*.scss      text diff=css
+*.sh        text eol=lf
+*.sql       text
+*.ts        text
+*.xml       text
+*.xhtml     text diff=html
+
+# Docker
+Dockerfile  text
+
+# Documentation
+*.md            text
+*.txt           text
+AUTHORS         text
+CHANGELOG       text
+CHANGES         text
+CONTRIBUTING    text
+COPYING         text
+INSTALL         text
+LICENSE         text
+NEWS            text
+README          text
+TODO            text
+
+# Configs
+*config             text
+*.conf              text
+*.config            text
+.editorconfig       text
+.env                text
+.gitattributes      text export-ignore
+.gitconfig          text export-ignore
+*.lock              text -diff
+package-lock.json   text -diff
+*.toml              text
+*.yaml              text
+*.yml               text
+Makefile            text
+makefile            text
+*.*manifest         text
+
+# Graphics
+*.gif   binary
+*.ico   binary
+*.jpg   binary
+*.pdf   binary
+*.png   binary
+*.svg   text
+
+# Video
+*.fla   binary
+*.flv   binary
+*.mov   binary
+*.mp4   binary
+*.mpeg  binary
+*.ogv   binary
+
+# Archives
+*.7z    binary
+*.gz    binary
+*.tar   binary
+*.zip   binary
+
+# RC files
+*.*rc   text
+
+# Ignore files
+*.*ignore   text
+.gitignore  export-ignore
