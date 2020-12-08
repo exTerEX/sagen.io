@@ -1,0 +1,8 @@
+.editorconfig
+.git*
+LICENSE
+Makefile
+README.md
+.github/
+.vscode/
+.devcontainer/
