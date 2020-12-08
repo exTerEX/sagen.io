@@ -1,11 +1,11 @@
 {
-  "name": "",
-  "image": "exterex/jekyll-dev",
-  "extensions": [
-    "ms-edgedevtools.vscode-edge-devtools",
-    "esbenp.prettier-vscode",
-    "editorconfig.editorconfig",
-    "ms-azuretools.vscode-docker"
-  ],
-  "postCreateCommand": "curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
+	"name": "",
+	"image": "exterex/jekyll-dev",
+	"extensions": [
+		"ms-edgedevtools.vscode-edge-devtools",
+		"esbenp.prettier-vscode",
+		"editorconfig.editorconfig",
+		"ms-azuretools.vscode-docker"
+	],
+	"postCreateCommand": "curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
 }
