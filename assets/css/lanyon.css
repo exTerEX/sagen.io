@@ -178,7 +178,18 @@ h6 {
 
 .sidebar-item p:last-child {
   margin-bottom: 0;
+  font-size: 100%;
+}
+
+.sidebar-item-footer {
+  padding: 1rem;
+}
+
+.sidebar-item-footer p:last-child {
+  margin-bottom: 0;
   font-size: 80%;
+  position: absolute;
+  bottom: 2.5%;
 }
 
 /* Sidebar nav */
