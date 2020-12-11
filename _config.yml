@@ -14,6 +14,10 @@ author:
 
 plugins:
   - jekyll-paginate
+  - jekyll-feed
+
+feed:
+  path: atom.xml
 
 include:
   - "_pages"
