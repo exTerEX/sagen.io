@@ -22,8 +22,22 @@
     {% endif %} {% endif %} {% endfor %}
   </nav>
 
-  <div class="sidebar-item-footer">
-    <p>
+  <div class="sidebar-item">
+    <div class="sidebar-container">
+      <ul>
+        <li>
+          <a href="{{ '/atom.xml' | absolute_url }}" type="application/rss+xml"
+            >RSS</a
+          >
+        </li>
+        <li><a href="{{ '/sitemap.xml' | absolute_url }}">Sitemap</a></li>
+        <li><a href="">Privacy</a></li>
+      </ul>
+    </div>
+
+    <br />
+
+    <p id="copyright">
       &copy; {{ site.time | date: '%Y' }} {{ site.author.name }}. All rights
       reserved.
     </p>
