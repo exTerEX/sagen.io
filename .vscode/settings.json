@@ -3,7 +3,7 @@
 		"**/.git": true,
 		"**/*.lock": true,
 		"**/_site": true,
-		"**/.jekyll-cache": true
+		"**/.jekyll-*": true
 	},
 	"[html]": {
 		"editor.suggest.insertMode": "replace",
