@@ -1,5 +1,5 @@
 title: Sagen.io
-headline: "PLACEHOLDER #1"
+tagline: "PLACEHOLDER #1"
 description: |
   "PLACEHOLDER #2"
 url: http://exterex.github.io
@@ -15,9 +15,7 @@ author:
 plugins:
   - jekyll-paginate
   - jekyll-feed
-
-feed:
-  path: atom.xml
+  - jekyll-sitemap
 
 include:
   - "_pages"
