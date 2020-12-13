@@ -172,24 +172,9 @@ h6 {
   color: #fff;
 }
 
-.sidebar-item {
-  padding: 1rem;
-}
-
 .sidebar-item p:last-child {
   margin-bottom: 0;
   font-size: 100%;
-}
-
-.sidebar-item-footer {
-  padding: 1rem;
-}
-
-.sidebar-item-footer p:last-child {
-  margin-bottom: 0;
-  font-size: 80%;
-  position: absolute;
-  bottom: 2.5%;
 }
 
 /* Sidebar nav */
@@ -238,7 +223,6 @@ a.sidebar-nav-item:focus {
   display: flex;
   align-items: center;
   padding: 0.25rem 0.75rem;
-  /*color: #505050;*/
   color: #90a959;
   background-color: #fff;
   border-radius: 0.25rem;
