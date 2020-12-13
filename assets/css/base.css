@@ -1,0 +1,42 @@
+ul {
+  list-style-type: none;
+  margin: 1rem 0 0;
+  padding: 0;
+  text-align: center;
+}
+
+li {
+  display: inline-block;
+  opacity: 0.6;
+  padding: 0 1rem 0 0;
+}
+
+li:last-child {
+  padding-right: 0;
+}
+
+.sidebar div:last-child {
+  position: absolute;
+  bottom: 0;
+}
+
+.sidebar-item {
+  padding: 1.25rem 1rem;
+}
+
+.sidebar-container {
+  padding: 0%;
+  display: block;
+  margin: 0 auto;
+  width: 80%;
+  position: relative;
+  overflow: auto;
+}
+
+.sidebar-container p {
+  position: relative;
+}
+
+#copyright {
+  font-size: 80%;
+}
