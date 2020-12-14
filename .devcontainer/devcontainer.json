@@ -7,5 +7,5 @@
 		"editorconfig.editorconfig",
 		"ms-azuretools.vscode-docker"
 	],
-	"postCreateCommand": "curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
+	"postCreateCommand": "bundle install && curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
 }
