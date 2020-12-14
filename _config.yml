@@ -16,6 +16,7 @@ plugins:
   - jekyll-paginate
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-gist
 
 include:
   - "_pages"
