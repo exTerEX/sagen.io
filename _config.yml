@@ -3,7 +3,7 @@ tagline: "PLACEHOLDER #1"
 description: |
   "PLACEHOLDER #2"
 url: http://exterex.github.io
-baseurl: ""
+baseurl: "/"
 paginate: 10
 permalink: pretty
 
