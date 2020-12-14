@@ -7,7 +7,7 @@ ul {
 
 li {
   display: inline-block;
-  opacity: 0.6;
+  opacity: 0.8;
   padding: 0 1rem 0 0;
 }
 
@@ -33,10 +33,7 @@ li:last-child {
   overflow: auto;
 }
 
-.sidebar-container p {
-  position: relative;
-}
-
 #copyright {
+  padding-top: 0.25rem;
   font-size: 80%;
 }
