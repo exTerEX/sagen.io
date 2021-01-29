@@ -1,16 +1,23 @@
+### Site
 title: Sagen.io
+url: http://exterex.github.io
+baseurl: "/sagen.io"
 tagline: "PLACEHOLDER #1"
 description: |
   "PLACEHOLDER #2"
-url: http://exterex.github.io
-baseurl: "/sagen.io"
-paginate: 10
-permalink: pretty
-
 author:
   name: Andreas Sagen
   url: https://twitter.com/andreas_sagen
   email: developer@sagen.io
+
+### Paginate
+paginate: 10
+
+### Sitemap
+
+
+### Metadata
+permalink: pretty
 
 plugins:
   - jekyll-paginate
