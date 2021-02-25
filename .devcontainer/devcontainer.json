@@ -4,8 +4,7 @@
 	"extensions": [
 		"ms-edgedevtools.vscode-edge-devtools",
 		"esbenp.prettier-vscode",
-		"editorconfig.editorconfig",
-		"ms-azuretools.vscode-docker"
+		"editorconfig.editorconfig"
 	],
-	"postCreateCommand": "bundle install && curl https://raw.githubusercontent.com/nektos/act/master/install.sh | sudo bash"
+	"postCreateCommand": "bundle install"
 }
